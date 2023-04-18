@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0px;
   }
-  li, h3 {
+  li,
+  h3 {
     list-style: none;
   }
-  input,button{
+  input,
+  button{
     outline: none;
   }
 /* Basic Style */
@@ -23,7 +25,8 @@
 .main-top__img {
   width: 100%;
 }
-.main-top .main-top__more-info {
+.main-top,
+.main-top__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +43,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task,.input-task {
+.task,
+.input-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,7 +53,9 @@
   display: flex;
 }
 
-.button-add,.button-edit,.button-delete {
+.button-add,
+.button-edit,
+.button-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -58,15 +64,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.button-add:hover {
-  color: #3a3A3a;
-}
-.button-edit:hover {
-    color: #3a3A3a;
-  }
+.button-add:hover,
+.button-edit:hover,
 .button-delete:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
+
 /* Heading */
 .heading,
 .label-new-task {
@@ -85,8 +88,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -107,7 +110,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,7 +127,7 @@
   font-size: 18px;
   width: 226px;
 }
-.all-tasks__list >    .input-task {
+.all-tasks__list > .input-task {
   width: 226px;
 }
 .button-delete .img-delete {
