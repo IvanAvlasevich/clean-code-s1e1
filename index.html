@@ -14,13 +14,13 @@
         </a>
       </section>
       <section class="centered-main">
-        <p id="adding-element">
-          <label for="new-task" class="label-new-task">
+        <p id="adding-element" class="centered-main__adding-element">
+          <label for="new-task" class="centered-main__label-new-task">
             Add Item
           </label>
-          <div class="task-row-wrapper">
-            <input id="new-task" class="input-task" type="text">
-            <button class="button-add">
+          <div class="task-wrapper">
+            <input id="new-task" class="task-wrapper__input-task input-task" type="text">
+            <button class="task-wrapper__button-add button-add">
               Add
             </button>
           </div>
@@ -30,29 +30,29 @@
         </h3>
         <ul id="incomplete-tasks" class="all-tasks">
           <li class="all-tasks__list">
-            <input type="checkbox" class="input-checkbox">
-            <label class="task">
+            <input type="checkbox" class="all-tasks__checkbox input-checkbox">
+            <label class="all-tasks__label-task task">
               Pay Bills
             </label>
-            <input type="text" class="input-task">
-            <button class="button-edit">
+            <input type="text" class="all-tasks__input-task input-task">
+            <button class="all-tasks__button-edit button-edit">
               Edit
             </button>
-            <button class="button-delete">
-              <img src="./remove.svg" class="img-delete" alt="arrow-remove">
+            <button class="all-tasks__button-delete button-delete">
+              <img src="./remove.svg" class="all-tasks__img-delete img-delete" alt="arrow-remove">
             </button>
           </li>
           <li class="all-tasks__list edit-mode">
-            <input type="checkbox" class="input-checkbox">
+            <input type="checkbox" class="all-tasks__checkbox input-checkbox">
             <label class="task">
               Go Shopping
             </label>
-            <input type="text" value="go shopping"  class="input-task">
-            <button class="button-edit">
+            <input type="text" value="go shopping"  class="all-tasks__input-task input-task">
+            <button class="all-tasks__button-edit button-edit">
               Save
             </button>
-            <button class="button-delete">
-              <img src="./remove.svg" class="img-delete" alt="arrow-remove">
+            <button class="all-tasks__button-delete button-delete">
+              <img src="./remove.svg" class="all-tasks__img-delete img-delete" alt="arrow-remove">
             </button>
           </li>
         </ul>
@@ -61,16 +61,16 @@
         </h3>
         <ul id="completed-tasks" class="all-tasks">
           <li class="all-tasks__list">
-            <input type="checkbox" class="input-checkbox" checked>
-            <label class="task">
+            <input type="checkbox" class="all-tasks__input-checkbox input-checkbox" checked>
+            <label class="all-tasks__task task">
               See the Doctor
             </label>
-            <input type="text" class="input-task">
-            <button class="button-edit">
+            <input type="text" class="all-tasks__input-task input-task">
+            <button class="all-tasks__button-edit button-edit">
               Edit
             </button>
-            <button class="button-delete">
-              <img src="./remove.svg" class="img-delete" alt="arrow-remove">
+            <button class="all-tasks__button-delete button-delete">
+              <img src="./remove.svg" class="all-tasks__img-delete img-delete" alt="arrow-remove">
             </button>
           </li>
         </ul>
